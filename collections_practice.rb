@@ -26,7 +26,7 @@ def kesha_maker(array)
     wordarray = []
     array.collect do |word|
         wordarray = word.split(//)
-        wordarray[2] = $
+        wordarray[2] = "$"
         wordarray.join
     end
 
