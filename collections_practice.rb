@@ -13,7 +13,7 @@ end
 def sort_swap_elements(array)
     value_2 = array[1]
     value_3 = array[2]
-    array[1] = value_2
-    array[2] = value_3
+    array[1] = value_3
+    array[2] = value_2
     return array
 end
