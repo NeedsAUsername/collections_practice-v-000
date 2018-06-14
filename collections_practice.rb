@@ -27,5 +27,10 @@ def kesha_maker(array)
         word[2] = "$"
         word
     end
+end
 
+def find_a(array)
+    array.any? do |word|
+    start_with?("a")
+    end
 end
