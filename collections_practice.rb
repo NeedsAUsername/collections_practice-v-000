@@ -44,6 +44,6 @@ def add_s(array)
         if index != 1
             word << "s"
         else
-            word << "" 
+            word << "p" 
     end
 end
