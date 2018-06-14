@@ -30,8 +30,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-    array.each_with_index.collect do |word, index|
-        if word.start_with?("a") {word}
-        
+    array.select do |word|
+        word.start_with?{"a"}
+    end 
     end
 end
