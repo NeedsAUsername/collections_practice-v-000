@@ -23,6 +23,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+    wordarray = []
     array.collect do |word|
         wordarray = word.split(//)
         wordarray[2] = $
