@@ -31,8 +31,7 @@ end
 
 def find_a(array)
     array.each_with_index.collect do |word, index|
-        if word.start_with?("a") do
-            word
-        end 
+        if word.start_with?("a") {word}
+        
     end
 end
